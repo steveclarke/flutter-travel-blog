@@ -31,7 +31,10 @@ class HomePage extends StatelessWidget {
               style: TextStyle(fontSize: 36),
             ),
           ),
-          Expanded(flex: 2, child: TravelBlog()),
+          Expanded(
+            flex: 2,
+            child: TravelBlog(),
+          ),
           Padding(
             padding: const EdgeInsets.all(15),
             child: Row(
@@ -43,12 +46,18 @@ class HomePage extends StatelessWidget {
                 ),
                 Text(
                   'View All',
-                  style: TextStyle(fontSize: 16, color: Colors.deepOrange),
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: Colors.deepOrange,
+                  ),
                 )
               ],
             ),
           ),
-          Expanded(flex: 1, child: MostPopular()),
+          Expanded(
+            flex: 1,
+            child: MostPopular(),
+          ),
         ],
       ),
     );

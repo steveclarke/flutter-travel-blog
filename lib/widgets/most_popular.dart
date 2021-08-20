@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travel_blog/detial.dart';
+import 'package:travel_blog/detail.dart';
 import 'package:travel_blog/model/travel.dart';
 
 class MostPopular extends StatelessWidget {
